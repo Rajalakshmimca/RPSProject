@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=League+Gothic&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  font-family: 'Gentium Book Plus', serif;
+  height: 100vh;
+  background-color: #fff;
+}
+.container {
+  min-width: 30rem;
+  width: 45%;
+
+  margin: 5rem, auto;
+  padding: 2rem;
+  min-height: 30rem;
+}
+.title-container {
+  min-height: 10rem;
+  margin-bottom: 1rem;
+}
+.main-title {
+  width: 48%;
+  float: left;
+}
+.scores {
+  width: 48%;
+  min-height: 5rem;
+  float: left;
+}
+.main-title .title {
+  font-size: 1.5rem;
+}
+.scores .score {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.scores .score span {
+  font-weight: 700;
+}
+.weapons-container {
+  min-height: 10rem;
+  margin-bottom: 1rem;
+}
+
+.btn-weapon {
+  display: inline-block;
+  width: 7rem;
+  height: 7rem;
+  padding: 1rem;
+  margin: 0 0.5rem;
+  border: none;
+  border-radius: 50%;
+  background-color: rgb(25, 128, 56);
+  outline: none;
+  cursor: pointer;
+}
+.btn_weapon-img {
+  color: blue;
+}
